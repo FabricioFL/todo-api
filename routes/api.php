@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TodoController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/', [TodoController::class, 'getTodos']);
+
+Route::post('/create', [TodoController::class, 'createTodo']);
+
+Route::put('/update', [TodoController::class, 'updateTodo']);
+
+Route::post('/remove', [TodoController::class, 'deleteTodo']);

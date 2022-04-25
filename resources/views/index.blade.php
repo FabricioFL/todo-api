@@ -52,8 +52,7 @@
                           <pre class="lead">
                               {
                                   "title" : "the title of your todo",
-                                  "description" : "the description of your todo",
-                                  "is_done" : false
+                                  "description" : "the description of your todo"
                               }
                           </pre>
                         </div>
@@ -115,7 +114,7 @@
 
             <div class="row p-3">
                 <div class="col">
-                    <h2 class="lead">/api/todo/delete <span class="badge bg-success">POST</span></h2>
+                    <h2 class="lead">/api/todo/remove <span class="badge bg-success">POST</span></h2>
 
                     <a class="btn btn-dark" data-bs-toggle="collapse" href="#sendDelete" role="button" aria-expanded="false" aria-controls="sendDelete">
                         Send
