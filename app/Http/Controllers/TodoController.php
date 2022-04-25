@@ -16,7 +16,7 @@ class TodoController extends Controller
         try
         {
             return Todo::all();
-        }catch(Exception $e)
+        }catch(Exception)
         {
             return ['alert' => 'something bad has occured!'];
         }

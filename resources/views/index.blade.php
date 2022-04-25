@@ -16,7 +16,7 @@
 
             <div class="row p-3">
                 <div class="col">
-                    <h2 class="lead">/api <span class="badge bg-primary">GET</span></h2>
+                    <h2 class="lead">https://todolist--api.herokuapp.com/api <span class="badge bg-primary">GET</span></h2>
 
                     <a class="btn btn-dark" data-bs-toggle="collapse" href="#receive" role="button" aria-expanded="false" aria-controls="receive">
                         Receive
@@ -43,7 +43,7 @@
             <div class="row p-3">
                 <div class="col">
 
-                    <h2 class="lead">/api/todo/create <span class="badge bg-success">POST</span></h2>
+                    <h2 class="lead">https://todolist--api.herokuapp.com/api/todo/create <span class="badge bg-success">POST</span></h2>
                     <a class="btn btn-dark" data-bs-toggle="collapse" href="#sendCreate" role="button" aria-expanded="false" aria-controls="sendCreate">
                         Send
                     </a>
@@ -77,7 +77,7 @@
 
             <div class="row p-3">
                 <div class="col">
-                    <h2 class="lead">/api/todo/update <span class="badge bg-warning">PUT</span></h2>
+                    <h2 class="lead">https://todolist--api.herokuapp.com/api/todo/update <span class="badge bg-warning">PUT</span></h2>
 
                     <a class="btn btn-dark" data-bs-toggle="collapse" href="#sendUpdate" role="button" aria-expanded="false" aria-controls="sendUpdate">
                         Send
@@ -114,7 +114,7 @@
 
             <div class="row p-3">
                 <div class="col">
-                    <h2 class="lead">/api/todo/remove <span class="badge bg-success">POST</span></h2>
+                    <h2 class="lead">https://todolist--api.herokuapp.com/api/todo/remove <span class="badge bg-success">POST</span></h2>
 
                     <a class="btn btn-dark" data-bs-toggle="collapse" href="#sendDelete" role="button" aria-expanded="false" aria-controls="sendDelete">
                         Send
